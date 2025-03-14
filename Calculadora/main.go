@@ -11,7 +11,7 @@ func main() {
 
 	if err != nil {
 		fmt.Println("Erro: ", err)
-
+		return
 	}
 
 	result, err := op.Executar(10, 10, 15)
